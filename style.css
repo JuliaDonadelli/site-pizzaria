@@ -1,0 +1,285 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img-fundo.jpg);
+
+}
+.logotipo{
+    justify-content: space-between;
+    display: block;
+    width: 110px;
+    padding: 10px;
+}
+.telefone{
+    display: inline-table;
+    padding: 5px;
+    font-size: 20px;
+}
+.cabecalho{
+    background-color: #b22d00;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    width: 1300px;
+    margin: 0 auto;
+}
+.menu{
+    width: 1300px;
+    margin: 0 auto;
+}
+.menu-navegacao{
+    background-color: #D9A300;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-size: 20px
+}
+.formatacao{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+}
+.titulo{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    margin: 5px 0px;
+    font-weight: 50;
+    padding-left: 35px;
+}
+
+hr{
+    height: 5px;
+    border-color: black;
+    background: black;
+}
+.fundo-conteudo{
+    background-color: white;
+    width: 1300px;
+    margin: 0 auto;
+}
+.imagem{
+    display: flex;
+}
+.coluna1 p,
+.coluna2 p,
+.coluna3 p{
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.coluna1, .coluna2, .coluna3{
+    display: inline-table;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+.titulo-2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.sabores{
+    padding: 30px;
+    background-color: white;
+}
+.sabor1{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: inline-table;
+}
+.sabor2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: inline-table;
+}
+.historia{
+    font-size: 40px;
+    font-weight: bold;
+    float: inline-start;
+}
+.conteudo-2{
+    display: flex;
+}
+.forno{
+    width:400px;
+}
+.forno-de-pizza{
+    float:left;
+}
+.linha{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 0px;
+}
+.texto-2{
+    font-size: 20px;
+    padding-left: 150px;
+}
+.conheca{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+}
+.rodape{
+    background-color: #333333;
+    color: white;
+    width: 1300px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.subtitulo{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 70;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.texto{
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-right: 40px;
+}
+.galeria{
+    display: flex;
+}
+.texto-nome{
+    margin: 0px;
+    width: 318px;
+    height: 33px;
+}
+.texto-email{
+    margin: 0px;
+    width: 318px;
+    height: 33px;
+}
+.botao-enviar{
+    background-color: #777777;
+    color: white;
+    font-weight: bold;
+    border-radius: 1px;
+    padding: 4px 10px 4px 10px;
+}
+.mapa{
+    background-color: rgb(199, 199, 199);
+    padding: 90px 90px 90px 90px;
+    color: black;
+    font-weight: 80;
+    margin-top: 40px;
+
+}
+.endereco-titulo{
+    text-align: right;
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+}
+.texto-rua{
+    text-align: right;
+    color: black;
+    font-size: 15px;
+}
+.email-contato{
+    text-align: right;
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+}
+.contato-pizza{
+    text-align: right;
+    color: black;
+    font-size: 15px;
+}
+.telefone-contato{
+    text-align: right;
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+}
+.telefone-numero{
+    text-align: right;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+.coluna-3{
+    padding-left: 8px;
+
+}
+.galeria{
+    display: flex;
+}
+.pizzas-galeria-1{
+    display: flex;
+    float: left;
+    width: 200px;
+    margin-right: 2px;
+}
+.pizzas-galeria-2{
+    display:flex;
+    float: left;
+    width: 200px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.lista-pizza{
+    display: flex;
+    flex-wrap: wrap;
+}
+.coluna{
+    width: 800px;
+}
+.coluna-galeria{
+    width: 700px;
+}
+.coluna-galeria img{
+    width: 200px;
+}
+.valor{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 70;
+}
+.valores{
+    font-size:15px;
+    font-weight: 70;
+}
+
+
+.imagem{
+    background: url(fundo.j11pg)
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
